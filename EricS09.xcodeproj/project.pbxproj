@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5378E3411EF368640013292A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5378E3401EF368640013292A /* main.swift */; };
+		5378E3481EF36B580013292A /* MyClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5378E3471EF36B580013292A /* MyClasses.swift */; };
+		53AB2E081EF370CD001FA8FF /* MyEric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AB2E071EF370CD001FA8FF /* MyEric.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		5378E33D1EF368640013292A /* EricS09 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EricS09; sourceTree = BUILT_PRODUCTS_DIR; };
 		5378E3401EF368640013292A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5378E3471EF36B580013292A /* MyClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClasses.swift; sourceTree = "<group>"; };
+		53AB2E071EF370CD001FA8FF /* MyEric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEric.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				5378E3401EF368640013292A /* main.swift */,
+				5378E3471EF36B580013292A /* MyClasses.swift */,
+				53AB2E071EF370CD001FA8FF /* MyEric.swift */,
 			);
 			path = EricS09;
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5378E3481EF36B580013292A /* MyClasses.swift in Sources */,
+				53AB2E081EF370CD001FA8FF /* MyEric.swift in Sources */,
 				5378E3411EF368640013292A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +263,7 @@
 				5378E3461EF368640013292A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
